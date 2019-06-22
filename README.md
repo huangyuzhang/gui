@@ -28,5 +28,12 @@ A Shell-based Ghost Static Generator
     ```bash
     cd static
     ```
-7. Commit everything here and push to your GitHub repo then enable GitHub Pages.
-
+7. Initiate a new git repo, commit everything here and push to your new GitHub repo:
+    ```bash
+    git init
+    git add .
+    git commit "Initial Commit"
+    git remote add origin git@github.com:<your_user_name>/<repo_name>.git
+    git push -u origin master
+    ```
+8. Enable GitHub Pages in settings.
