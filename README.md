@@ -32,7 +32,7 @@ A Shell-based Ghost Static Generator
     ```bash
     git init
     git add .
-    git commit "Initial Commit"
+    git commit -m "Initial Commit"
     git remote add origin git@github.com:<your_user_name>/<repo_name>.git
     git push -u origin master
     ```
